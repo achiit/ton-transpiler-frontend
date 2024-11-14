@@ -1,0 +1,63 @@
+/* src/components/CompilePanel/CompilePanel.css */
+.compile-panel {
+    background: #2d2d2d;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.action-button {
+    min-width: 120px !important;
+}
+
+.panel-alert {
+    margin-bottom: 1rem;
+}
+
+.compilation-result {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+.code-box {
+    background: #000000;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    overflow-x: auto;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.code-box pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-all;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.MuiTypography-h6 {
+    color: #ffffff !important;
+    margin-bottom: 1rem !important;
+}
+
+.MuiTypography-subtitle1 {
+    color: #cccccc !important;
+    margin-top: 1rem !important;
+}
+
+.compilation-result {
+    border: 1px solid #444;
+}

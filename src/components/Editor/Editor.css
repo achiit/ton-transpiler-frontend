@@ -1,0 +1,6 @@
+.editor-wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #333;
+    height: 60vh;
+}

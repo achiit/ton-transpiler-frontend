@@ -1,0 +1,23 @@
+.app {
+    min-height: 100vh;
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+.main-content {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.editor-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.editor-section h2 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
